@@ -1,0 +1,132 @@
+/* Colore di sfondo blu */
+.bg-blue {
+    background-color: #09263f
+}
+
+/* Collegamenti bianchi */
+.navbar-dark .nav-link {
+    color: white;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #d9d9d9; /* Colore al passaggio del mouse */
+}
+
+/* Bottone contatti */
+.btn-contact {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: rgb(255, 51, 0); /* Arancio scuro */
+    color: white;
+    border-color: rgb(255, 51, 0);
+}
+
+/* Dropdown stile */
+.dropdown-item img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar{
+   margin-top: -8px;
+}
+
+/* Hero Section */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero-container {
+    background-image: url('../img/head_4.jpg'); /* Sostituisci con il tuo URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* L'altezza occupa l'intero viewport */
+    color: white;
+    position: relative;
+    height: 600px;   
+}
+
+@media (max-width: 768px) {
+    .custom-height {
+        height: 400px; /* Altezza ridotta per dispositivi più piccoli */
+    }
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Sfondo scuro traslucido */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+/* Testo leggibile */
+
+
+
+
+  /* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Stile per i blocchi */
+.card-block {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin-top: 20%;
+}
+
+.card-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Icone */
+.icon {
+    font-size: 40px;
+    color: rgb(255, 51, 0);
+    transition: color 0.3s ease;
+}
+
+.card-block:hover .icon {
+    color: blue;
+}
+
+/* Titoli */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Paragrafi */
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+  
