@@ -129,4 +129,45 @@ p {
     text-align: justify;
 }
 
-  
+  /* Stile generale blocchi alternati */
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+/* Immagini */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Colore icone */
+.text-orange {
+    color: orange;
+}
+
+/* Spaziatura lista */
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Titoli */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Paragrafi */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
