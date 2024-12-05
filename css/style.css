@@ -129,45 +129,42 @@ p {
     text-align: justify;
 }
 
-  /* Stile generale blocchi alternati */
-
-  body {
+/* Stile generale blocchi alternati*/
+body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* Immagini */
+/* Colore arancione per le icone */
+.text-orange {
+    color: rgb(255, 51, 0);
+}
+
+/* Immagine */
 img {
     max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Colore icone */
-.text-orange {
-    color: orange;
-}
-
-/* Spaziatura lista */
-ul {
-    margin-top: 20px;
-}
-
-ul li {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 /* Titoli */
 h2 {
     font-size: 1.8rem;
-    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 /* Paragrafi */
 p {
     font-size: 1rem;
-    line-height: 1.6;
     text-align: justify;
-    margin-bottom: 20px;
 }
+
+/* Lista */
+ul {
+    margin-top: 1rem;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+/* Stile generale blocchi alternati FINE */
