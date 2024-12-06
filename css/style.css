@@ -92,6 +92,11 @@ body {
 }
 
 /* Stile per i blocchi */
+
+.spacer{
+    height: 8%;
+}
+
 .card-block {
     padding: 20px;
     border: 1px solid #ddd;
@@ -168,3 +173,51 @@ ul li {
     margin-bottom: 0.5rem;
 }
 /* Stile generale blocchi alternati FINE */
+
+/* Stile per il footer */
+.footer {
+    background-color: #1A1D36;
+}
+
+/* Logo */
+.footer-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Mission */
+.mission {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Titoli dei blocchi */
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Collegamenti */
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: orange;
+}
+
+/* Immagine del footer */
+.footer-image {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Margini generali */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
