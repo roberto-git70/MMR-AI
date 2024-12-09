@@ -80,12 +80,6 @@ body, html {
     margin-top: 10px;
 }
 
-
-/* Testo leggibile */
-
-
-
-
   /* Stile generale */
 body {
     font-family: Arial, sans-serif;
@@ -93,46 +87,31 @@ body {
 
 /* Stile per i blocchi */
 
-.spacer{
-    height: 8%;
-}
-
-.card-block {
+.custom-card {
+    background-color: #ffe5d45b; /* Sfondo salmone tenue */
+    border-radius: 10px; /* Angoli arrotondati */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Effetto hover fluido */
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    margin-top: 20%;
-}
-
-.card-block:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Icone */
-.icon {
-    font-size: 40px;
-    color: rgb(255, 51, 0);
-    transition: color 0.3s ease;
-}
-
-.card-block:hover .icon {
-    color: blue;
-}
-
-/* Titoli */
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-/* Paragrafi */
-p {
+  }
+  .custom-card:hover {
+    background-color: #ffffff; /* Sfondo bianco al passaggio del mouse */
+    transform: translateY(-5px); /* Solleva la card leggermente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Aggiunta di ombra */
+  }
+  .custom-card .icon {
+    font-size: 2rem; /* Dimensione icona */
+    color: #F76C6C; /* Colore dell'icona */
+  }
+  .custom-card h3 {
+    color: #333; /* Colore del titolo */
+    margin-top: 20px; /* Spazio tra l'icona e il titolo */
+  }
+  .custom-card p {
+    color: #555; /* Colore del testo */
     font-size: 1rem;
     line-height: 1.5;
-    text-align: justify;
-}
+    margin-top: 15px; /* Spazio tra il titolo e il testo */
+  }
 
 /* Stile generale blocchi alternati*/
 body {

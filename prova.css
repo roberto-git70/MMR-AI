@@ -1,0 +1,25 @@
+.custom-card {
+    background-color: #FFE5D4; /* Sfondo salmone tenue */
+    border-radius: 10px; /* Angoli arrotondati */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Effetto hover fluido */
+    padding: 20px;
+  }
+  .custom-card:hover {
+    background-color: #ffffff; /* Sfondo bianco al passaggio del mouse */
+    transform: translateY(-5px); /* Solleva la card leggermente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aggiunta di ombra */
+  }
+  .custom-card .icon {
+    font-size: 3rem; /* Dimensione icona */
+    color: #F76C6C; /* Colore dell'icona */
+  }
+  .custom-card h3 {
+    color: #333; /* Colore del titolo */
+    margin-top: 20px; /* Spazio tra l'icona e il titolo */
+  }
+  .custom-card p {
+    color: #555; /* Colore del testo */
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 15px; /* Spazio tra il titolo e il testo */
+  }
