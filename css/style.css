@@ -1,3 +1,8 @@
+.root{
+    background-color: #FFFFFF;
+}
+
+
 /* Colore di sfondo blu */
 .bg-blue {
     background-color: #09263f
@@ -55,7 +60,8 @@ body, html {
     height: 100vh; /* L'altezza occupa l'intero viewport */
     color: white;
     position: relative;
-    height: 600px;   
+    height: 600px;
+    margin-bottom: 10%;
 }
 
 @media (max-width: 768px) {
